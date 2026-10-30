@@ -1,0 +1,7 @@
+model,hiperparameter,macro_F1_uji,akurasi_uji,F1_BINGUNG,F1_KOREKSI,F1_PAHAM,F1_LAIN,keterangan
+IndoBERT-base (p1),"lr 3e-05, 5 epoch, batch 16",0.774,0.826,0.864,0.588,0.865,0.761,rata-rata 3 benih: 0.774 ± 0.010
+IndoBERTweet,"lr 3e-05, 5 epoch, batch 16",0.746,0.822,0.854,0.455,0.863,0.795,rata-rata 3 benih: 0.746 ± 0.006
+TF-IDF + Regresi Logistik,C/alpha = 3,0.732,0.793,0.817,0.533,0.853,0.726,CV 5-lipatan per video: 0.724 ± 0.017
+TF-IDF + SVM linear,C/alpha = 0.3,0.721,0.789,0.818,0.5,0.861,0.706,CV 5-lipatan per video: 0.700 ± 0.018
+TF-IDF + Naive Bayes,C/alpha = 0.1,0.566,0.715,0.784,0.125,0.802,0.554,CV 5-lipatan per video: 0.573 ± 0.024
+Mayoritas (acuan bawah),,0.118,0.307,0.0,0.0,0.0,0.47,CV 5-lipatan per video: 0.122 ± 0.006

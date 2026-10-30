@@ -1,0 +1,44 @@
+# Kata kunci pencarian video BINGUNG-ID
+# Baris [Mapel] menandai bagian; kata kunci di bawahnya otomatis diberi mapel itu.
+# Setiap baris = 1 pencarian = 100 unit kuota (32 baris ≈ 3.200 unit dari 10.000/hari).
+# Silakan ganti/tambah sesuai topik Kurikulum Merdeka yang ingin kalian dalami.
+
+[Matematika]
+limit fungsi aljabar
+turunan fungsi
+integral tak tentu
+trigonometri sudut berelasi
+logaritma
+vektor matematika
+matriks determinan invers
+peluang kejadian
+
+[Fisika]
+hukum newton gerak
+gerak parabola
+usaha dan energi
+momentum dan impuls
+listrik dinamis rangkaian
+induksi elektromagnetik
+gelombang mekanik
+termodinamika
+
+[Kimia]
+konsep mol
+stoikiometri
+laju reaksi
+kesetimbangan kimia
+asam basa ph
+reaksi redoks
+hidrolisis garam
+ikatan kimia
+
+[Biologi]
+hukum mendel persilangan
+sintesis protein
+mitosis meiosis
+sistem imun
+respirasi sel
+fotosintesis
+pewarisan sifat
+ekosistem

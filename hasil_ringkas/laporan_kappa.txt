@@ -1,0 +1,20 @@
+LAPORAN KESEPAKATAN ANTAR-ANOTATOR · BINGUNG-ID
+
+Komentar irisan yang dinilai >=2 anotator: 300
+  Cohen's kappa Budi vs Rani: 0.871 (hampir sempurna) · kesepakatan mentah 91.3% · n=300
+  Cohen's kappa Budi vs Sari: 0.822 (hampir sempurna) · kesepakatan mentah 88.0% · n=300
+  Cohen's kappa Rani vs Sari: 0.862 (hampir sempurna) · kesepakatan mentah 90.7% · n=300
+  Rata-rata Cohen's kappa: 0.852 (hampir sempurna)
+  Fleiss' kappa (3 anotator, n=300): 0.852 (hampir sempurna)
+  Label yang paling sering tertukar: LAIN vs PAHAM (12), BINGUNG vs LAIN (11), BINGUNG vs PAHAM (8), BINGUNG vs KOREKSI (7)
+
+VERIFIKASI LABEL AI (lembar tahap 2)
+  Diperiksa: 1200 komentar | label diubah: 5 (0.4%) | jenis BINGUNG diubah: 0
+  Usulan AI RAGU: 146 komentar, 3.4% labelnya diubah
+  Usulan AI YAKIN: 1054 komentar, 0.0% labelnya diubah
+  Perubahan terbanyak: LAIN->PAHAM (3), LAIN->BINGUNG (1), KOREKSI->BINGUNG (1)
+
+Dataset berlabel: 1500 komentar | siap dipakai: 1498 | PERLU_DISKUSI: 2 | kosong: 0
+Sebaran label: BINGUNG=527 (35.2%), LAIN=522 (34.8%), PAHAM=393 (26.2%), KOREKSI=56 (3.7%)
+Sebaran jenis (BINGUNG): PROSEDURAL=215, KONSEPTUAL=207, UMUM=72, NOTASI=30, PERLU_DISKUSI=3
+  ! 3 komentar BINGUNG jenisnya masih seri: isi kolom jenis_final di ketidaksepakatan.csv

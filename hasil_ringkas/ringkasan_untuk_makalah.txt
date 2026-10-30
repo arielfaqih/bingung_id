@@ -1,0 +1,11 @@
+RINGKASAN BINGUNG-ID (salin angka, tulis kalimatnya sendiri)
+Dataset: 1498 komentar berlabel dari 241 video; BINGUNG 527, KOREKSI 56, PAHAM 393, LAIN 522
+Pembagian data per video: latih 1066, validasi 162, uji 270 komentar
+Model utama: IndoBERT-base (p1) · macro-F1 uji 0.774 (rata-rata 3 benih: 0.774 ± 0.010) · akurasi 0.826
+TF-IDF terbaik: TF-IDF + Regresi Logistik · macro-F1 uji 0.732 (CV 5-lipatan per video: 0.724 ± 0.017)
+F1 per kelas (model utama): BINGUNG 0.864, KOREKSI 0.588, PAHAM 0.865, LAIN 0.761
+Kesalahan terbanyak: LAIN terbaca sebagai BINGUNG (10 komentar uji)
+Jenis kebingungan terbanyak: PROSEDURAL (41%); PROSEDURAL 41%, KONSEPTUAL 40%, UMUM 14%, NOTASI 6%
+Pemetaan: 68175 komentar; Indeks Kebingungan keseluruhan 27.3%; per mapel Biologi 19.8%, Fisika 31.5%, Kimia 27.3%, Matematika 32.3%
+5 topik paling membingungkan (min. 20 komentar materi): hidrolisis garam (Kimia) 52%; asam basa ph (Kimia) 48%; sistem imun (Biologi) 44%; trigonometri sudut berelasi (Matematika) 38%; logaritma (Matematika) 37%
+Posisi kebingungan terbanyak: 80–90% durasi video (n=716)
