@@ -69,7 +69,7 @@ Langkah ini:
 - mengekstrak timestamp (`5:32`, `1:02:33`, `menit 5.32`, `menit ke 3`),
 - menandai komentar yang mengandung sinyal bingung.
 
-Hasilnya `data/komentar_bersih.csv` dan `data/ringkasan_dataset.csv`. File ringkasan langsung bisa dipakai sebagai Tabel Dataset di makalah.
+Hasilnya `data/komentar_bersih.csv` dan `data/ringkasan_dataset.csv`. File ringkasan berisi jumlah video, komentar, porsi timestamp, dan porsi penanda bingung per mata pelajaran.
 
 **d. Buat lembar anotasi**
 ```
@@ -81,7 +81,7 @@ Hasilnya `anotasi/anotasi_<Nama>.xlsx`, sekitar 700 komentar per orang:
 
 Rincian sampel:
 - Jatah per mapel sama rata.
-- 40% berasal dari komentar bersinyal bingung, supaya kelas BINGUNG tidak terlalu sedikit. Cantumkan strategi ini di bagian metode makalah.
+- 40% berasal dari komentar bersinyal bingung, supaya kelas BINGUNG tidak terlalu sedikit.
 - Maksimal 30 komentar per video.
 
 `data/sampel_anotasi.csv` adalah kunci sampel. **Jangan dibagikan ke anotator.**
@@ -100,9 +100,9 @@ Setelah sesi diskusi, isi kolom `label_final` (dan `jenis_final` bila BINGUNG) d
 !python bingung_scraper.py kappa --lembar anotasi/anotasi_*.xlsx --putusan data/ketidaksepakatan.csv
 ```
 
-## 3. Catatan untuk makalah dan etika
+## 3. Catatan metode dan etika
 
-- Nama dan ID kanal komentator **tidak disimpan**. Yang disimpan hanya hash SHA-256 bergaram, yaitu kode acak satu arah sehingga ID asli tidak bisa dikembalikan. Tulis ini di bagian Metode sebagai prosedur anonimisasi.
+- Nama dan ID kanal komentator **tidak disimpan**. Yang disimpan hanya hash SHA-256 bergaram, yaitu kode acak satu arah sehingga ID asli tidak bisa dikembalikan.
 - Teks identik hanya muncul sekali di sampel anotasi, supaya tidak ada kebocoran antara data latih dan data uji.
 - Saat membagi train/test nanti, **bagi per `video_id`** (GroupShuffleSplit atau GroupKFold).
 - Data diambil lewat API resmi. Dalam presentasi atau lampiran, jangan menampilkan komentar beserta identitas penulisnya.

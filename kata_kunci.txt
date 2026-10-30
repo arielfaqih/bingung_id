@@ -1,7 +1,7 @@
 # Kata kunci pencarian video BINGUNG-ID
 # Baris [Mapel] menandai bagian; kata kunci di bawahnya otomatis diberi mapel itu.
 # Setiap baris = 1 pencarian = 100 unit kuota (32 baris ≈ 3.200 unit dari 10.000/hari).
-# Silakan ganti/tambah sesuai topik Kurikulum Merdeka yang ingin kalian dalami.
+# Kata kunci disusun dari topik Kurikulum Merdeka.
 
 [Matematika]
 limit fungsi aljabar

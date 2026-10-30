@@ -1,4 +1,4 @@
-RINGKASAN BINGUNG-ID (salin angka, tulis kalimatnya sendiri)
+RINGKASAN BINGUNG-ID
 Dataset: 1498 komentar berlabel dari 241 video; BINGUNG 527, KOREKSI 56, PAHAM 393, LAIN 522
 Pembagian data per video: latih 1066, validasi 162, uji 270 komentar
 Model utama: IndoBERT-base (p1) · macro-F1 uji 0.774 (rata-rata 3 benih: 0.774 ± 0.010) · akurasi 0.826
